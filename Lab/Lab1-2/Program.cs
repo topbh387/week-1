@@ -17,14 +17,15 @@ namespace Lab1_2
 
         public static void input()
         {
-            int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
+            string x;
+            Console.WriteLine("Input number: ");
+            x = Console.ReadLine();
             process(x);
         }
-        static public void process(int[] input)
+        static public void process(string x)
         {
-
-
+            int[] input;
+            input = x.Split(' ').Select(n => Convert.ToInt32(n)).ToArray();
             bool flag = true;
 
 
