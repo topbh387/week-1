@@ -5,10 +5,12 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions:5da1c6fb
+* Get input from command line:0cb2d783
 
 ## Questions
 1. What are the limitations of your new code?
 
 Answer:
+It can sort only 1 time then the program will be end, and it can't sort character
+//Thanayot Meeusa 570611014 sec3
