@@ -1,4 +1,5 @@
-﻿using System;
+﻿//570611014 Thanayot Meeusa sec3
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,14 +9,25 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
+
         static void Main(string[] args)
         {
+            input();
+        }
+
+        public static void input()
+        {
+            int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+
+            process(x);
+        }
+        static public void process(int[] input)
+        {
+
+
             bool flag = true;
 
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 
-            // process
             while (flag)
             {
                 flag = false;
@@ -30,8 +42,10 @@ namespace Lab1_2
                     }
                 }
             }
-
-            // output
+            output(input);
+        }
+        static public void output(int[] input)
+        {
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
